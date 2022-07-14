@@ -8,7 +8,7 @@ def recur(level, cnt):
     
     # 5지선다
     for i in range(1, 6):
-        # 문제가 2개 이하거나 맨 뒤 숫자 두 개가 지금꺼와 다를 경우
+        # 문제가 2개 미만이거나 맨 뒤 숫자 두 개가 지금꺼와 다를 경우
         if len(numbers) < 2 or (numbers[-2] != numbers[-1] or numbers[-1] != i):
             numbers.append(i)
             # 정답 맞혔을 때
