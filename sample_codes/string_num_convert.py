@@ -12,3 +12,6 @@ num = 0
 print(chr(num + 65)) ## A
 # 소문자
 print(chr(num + 97)) ## a
+
+print(chr(ord(word))) ## A
+print(ord(chr(num))) ## 0
